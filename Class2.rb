@@ -33,6 +33,7 @@ class MegaGreeter
 end
 
 if __FILE__ == $0
+  puts __FILE__ # Path of the file
   mg = MegaGreeter.new
   mg.say_hi
   mg.say_bye
